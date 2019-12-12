@@ -39,6 +39,6 @@ The sizes of the datasets are: 31MB and 64k lines for the music, 110MB and 231k 
     \caption{Pandas dataframe of the data}
 \end{figure}
 
-For testing purposes, we want to split our data into a training and a testing set. This is not just a simple randomized split of the datapoints. To be able to evaluate our recommender system, we need to split based on users, taking out 10\% of all users and putting them in a test set. This way, our test set consists of completely new users who have not been seen during training yet. By looking at a few of those new user's preferences, the model can then recommend them new items to buy.
+For testing purposes, we want to split our data into a training and a testing set. This is not just a simple randomized split of the datapoints. For the evaluation of our recommender system, we need to split our user base, taking out 10\% of all users and putting them in a test set. Our test set will therefore consist of completely new users who have not been used for the training of our model. By looking at a few of those new user's preferences, the model can then recommend them new items to buy. We will be able to compare these recommendations to our expected recommendations, to evaluate our model.
 
 \end{document}
