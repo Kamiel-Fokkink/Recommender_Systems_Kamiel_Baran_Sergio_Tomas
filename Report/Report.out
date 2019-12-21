@@ -1,0 +1,7 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Dataset}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Splitting the data}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{k-NN}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{User-to-user}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Item-to-item}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Similarity measures}{section.3}% 7
