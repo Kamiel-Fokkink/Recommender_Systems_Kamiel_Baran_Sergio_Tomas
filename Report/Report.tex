@@ -84,7 +84,7 @@ The accuracy of the recommender system that was based on item to item classifica
 \begin{table}[]
 \begin{tabular}{@{}|l|l|l|l|@{}}
 \toprule
-     & Euclidean similarity & Cosine similarity & Pearson correlation \\ \midrule
+     & Euclidean sim & Cosine sim & Pearson corr \\ \midrule
 Cost & 3.79659              & 3.39459           & 5.21993             \\ \bottomrule
 \end{tabular}
 \caption{Costs of different similarity measures}
@@ -120,7 +120,7 @@ If the values of these two errors is low, it means that the recommender system h
 \subsection{Item-item classification}
 The accuracy of the recommender system that was based on item to item classification has been evaluated with the Mean Absolute Error. The variables that were being varied were the k, number of items in a neighborhood, and the different kind of similarities. The cosine similarity had the lowest cost when k = 100. Namely, a cost of roughly 3.395.In Table 1 the results of this will be shown.\\
 
-\subsection{Conclusion}
+\subsection{Conclusion and Discussion}
 Our project was successful in creating a recommender system, which provided recommendations, based on our own internal algorithms. Our biggest issues were in creating evaluation metrics and functions, as well as dealing with our large quantities of data. We found that the User-to-User system was easier to implement, requiring less processing, and working better in areas of our dataset with low information density. This is quite normal, for both types of systems, working with the same dataset. However, both methods have value in making item recommendations, and they could be used collaboratively for best results. This would allow a recommender system to use the strengths of each system, based on similarities between users and items. If we were to take this project further, it would be very interesting to be able to use more data, such as more detailed user information. This could possibly include demographics, searches, viewing and clicking data, and more.
  
 \newpage
@@ -128,7 +128,7 @@ Our project was successful in creating a recommender system, which provided reco
 \begin{table}[]
 \begin{tabular}{@{}|l|l|l|l|@{}}
 \toprule
-     & Euclidean similarity & Cosine similarity & Pearson correlation \\ \midrule
+     & Euclidean sim & Cosine sim & Pearson corr \\ \midrule
 Cost & 3.79659              & 3.39459           & 5.21993             \\ \bottomrule
 \end{tabular}
 \caption{Costs of different similarity measures}
@@ -151,9 +151,6 @@ k   & Cost    \\ \midrule
 After done this the k, items in the neighborhood, was varied, while using the cosine similarity measurement (see Table 2). The best one was k = 100 with a cost of 3.39459.
 
 \subsection{User-user classification}
-
-
-
 
 \section{Bibliography}
 Herlocker, J., Konstan, J., Terveen, L., & Riedl, J. (2004). Evaluating collaborative filtering recommender systems. ACM Transactions on Information Systems (TOIS), 22(1), 5–53. https://doi.org/10.1145/963770.963772
