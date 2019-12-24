@@ -1,2 +1,2 @@
-# May I Recommed?- Sergio, Thomas, Kamiel, Baran
+# May I Recommend?- Sergio, Thomas, Kamiel, Baran
 Project for Machine Learning. We train a recommender system based on Amazon reviews of products. Our data is store in a pandas DataFrame, and split into a train and test set. We use a k-NN algorithm to create item recommendations, with both User-to-User and Item-to-Item algorithms. We have evaluation methods for each, used for optimization, and selection of best parameters, such as k and n.
